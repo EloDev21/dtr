@@ -14,7 +14,7 @@ export class MainNavComponent {
     .pipe(
       map(result => result.matches),
       shareReplay()
-    );
+    )
 
   constructor(private breakpointObserver: BreakpointObserver) {}
 
