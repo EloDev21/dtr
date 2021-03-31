@@ -1,0 +1,92 @@
+
+.presentation{
+  height : 200px;
+  width: 100% ;
+  background-color: transparent;
+
+}
+.accroche {
+
+  height: 40px;
+}
+h2{
+
+  background: linear-gradient(to LEFT,orangered, #FA8072 60%, darkgrey);
+}
+
+p{
+  color:black;
+  font-size: 1.2em;
+
+}
+//.marquee-rtl {
+//  position:absolute;
+//
+//  bottom:0;
+//
+//  width:100%;
+//
+//
+//
+//  height:50px;
+//                        /* largeur de la fenêtre */
+//  margin: 1em auto 2em;
+//  border: 5px solid grey;
+//  overflow: hidden;                     /* masque tout ce qui dépasse */
+//  box-shadow: 0 .25em .5em #CCC,inset 0 0 1em .25em #CCC;
+//}.marquee-rtl > :first-child {
+//   display: inline-block;                /* modèle de boîte en ligne */
+//   padding-right: 2em;                   /* un peu d'espace pour la transition */
+//   padding-left: 100%;                   /* placement à droite du conteneur */
+//   white-space: nowrap;                  /* pas de passage à la ligne */
+//   animation: defilement-rtl 15s infinite linear;
+// }
+//animation{
+//animation-name: defilement-rtl;       /* référence à la règle @keyframes mise en oeuvre */
+//animation-delay: 15s;                 /* valeur à ajuster suivant la longueur du message */
+//animation-iteration-count: infinite;  /* boucle continue */
+//animation-timing-function: linear;    /* pas vraiment utile ici */
+//}
+//@keyframes defilement-rtl {
+//  0% {
+//    transform: translate3d(0,0,0);      /* position initiale à droite */
+//  }
+//  100% {
+//    transform: translate3d(-100%,0,0);  /* position finale à gauche */
+//  }
+//}
+
+h3  {
+
+  float: right;
+  font-weight: bold;
+
+}
+.devis{
+
+  transform:translate(-12px); /* décalage de l'ensemble pour aligner le texte */
+}
+.move{
+  background: orangered;
+  padding:7px 12px;
+  border-radius:7px;
+  display:inline-block;
+  transform:rotate(-3deg); /* on tourne */
+}
+
+.free{
+  display:inline-block; /* cf au dessus */
+  transform:rotate(2deg); /* idem dans l'autre sens */
+}
+.slog{
+  flex: 1 1 auto;
+  float: right;
+  margin-top: 30px;
+  text-align: center;
+}
+.slog1 {
+  margin-top: 50px;
+
+
+}
+

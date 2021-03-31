@@ -1,0 +1,57 @@
+.sidenav-container {
+  height: 100%;
+  width: 100%;
+}
+
+.sidenav {
+  width: 170px;
+  background: linear-gradient(to right,orangered, #FA8072 60%, darkgrey);
+  font-family: Cambria;
+}
+mat-toolbar{
+  background:  linear-gradient(180deg,orangered, #FA8072 60%, darkgrey);
+  width: 100%;
+}
+
+.sidenav .mat-toolbar {
+  background:  linear-gradient(180deg,orangered, #FA8072 60%, darkgrey);
+  width: 100%;
+
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.hidden{
+  display: none;
+}
+.spacer{
+  flex:  1 1 auto;
+}
+mat-toolbar a {
+  font-family: Cambria;
+  display: inline-block;
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a:hover{
+  background-color: orangered;
+  border-radius: 10px;
+}
+.nomEntreprise{
+  font-weight: bold;
+  font-size: xxx-large;
+  font-family: Cambria;
+}
+
+
+@media (max-width: 600px) {
+  .menuPrincipal {
+    display: none;
+  }
+}
