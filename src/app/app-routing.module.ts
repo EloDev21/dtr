@@ -6,6 +6,7 @@ import {ReaComponent} from "./rea/rea.component";
 import {ContactComponent} from "./contact/contact.component";
 
 const routes: Routes = [
+  
   {path: 'accueil', component:AccueilComponent},
   {path: 'prestations', component:PrestaComponent},
   {path: 'realisations', component:ReaComponent},
