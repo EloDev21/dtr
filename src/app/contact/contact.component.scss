@@ -1,19 +1,23 @@
-
-label{
+label {
   text-decoration: underline;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: large;
 
   color: black;
 }
-.btn  {
+.btn {
   display: block;
   margin: auto;
   background-color: orangered;
   font-weight: bold;
   color: black;
 }
-body{
+body {
   justify-content: center;
+}
 
+h1 {
+  font-size: xx-large;
+  font-weight: bold;
 }

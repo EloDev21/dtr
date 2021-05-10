@@ -1,24 +1,60 @@
 <div class="container">
-  <h1 class="text-center mb-5"  style="color:orangered; text-decoration: overline underline; margin-top: 15px"><strong> DEMANDE DE DEVIS - INFORMATONS</strong></h1>
+  <h1
+    class="text-center mb-5"
+    style="
+      color: orangered;
+      text-decoration: overline underline;
+      margin-top: 50px;
+    "
+  >
+    CONTACT - DEVIS
+  </h1>
   <div class="row">
-    <div class="col-md-6 offset-md-3" style="margin-bottom: 30PX">
-      <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)"><div class="form-group">
+    <div class="col-md-6 offset-md-3" style="margin-bottom: 30px">
+      <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
         <div class="form-group">
-          <label>PRENOM</label>
-          <input type="text" style="height: 35px" class="form-control" name="prenom" placeholder="Entrez votre prénom" formControlName="prenom">
-        </div>
-        <div class="form-group">
-          <label >NOM</label>
-          <input type="text" style="height: 35px" class="form-control" name="nom" placeholder=" Entrez votre nom" formControlName="lastName">
-        </div>
+          <div class="form-group">
+            <label>PRENOM</label>
+            <input
+              type="text"
+              style="height: 35px"
+              class="form-control"
+              name="prenom"
+              placeholder="Entrez votre prénom"
+              formControlName="prenom"
+            />
+          </div>
+          <div class="form-group">
+            <label>NOM</label>
+            <input
+              type="text"
+              style="height: 35px"
+              class="form-control"
+              name="nom"
+              placeholder=" Entrez votre nom"
+              formControlName="lastName"
+            />
+          </div>
 
-        <div class="form-group">
-          <label >Entrez votre message</label>
-          <textarea style="height: 100px" class="form-control" formControlName="Comment" name="Comment" placeholder="Entrez votre message ainsi q'un email et un numéro de téléphone afin de vous revenir dans les plus brefs délais. Bien à vous.">
-</textarea>
+          <div class="form-group">
+            <label>Entrez votre message</label>
+            <textarea
+              style="height: 100px"
+              class="form-control"
+              formControlName="Comment"
+              name="Comment"
+              placeholder="Entrez votre message ainsi q'un email et un numéro de téléphone afin de vous revenir dans les plus brefs délais. Bien à vous."
+            ></textarea>
+          </div>
+          <button
+            style="height: 40px"
+            type="submit"
+            class="btn"
+            [disabled]="FormData.valid"
+          >
+            ENVOYER
+          </button>
         </div>
-        <button  style="height: 40px"type="submit" class="btn " [disabled]="FormData.valid">ENVOYER</button>
-      </div>
       </form>
     </div>
   </div>
